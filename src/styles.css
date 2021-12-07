@@ -10,24 +10,24 @@ html {
 }
 @keyframes hamburgerWideDown {
 0% {
-    transform: scaleX(0);
+    transform: scaleX(0) scaleY(0);
 }
 25% {
-    transform: scaleX(0.25);
+    transform: scaleX(0.25) scaleY(0.25);
 }
 50% {
-    transform: scaleX(0.50);
+    transform: scaleX(0.50) scaleY(0.50);
 }
 75% {
-    transform: scaleX(0.75);
+    transform: scaleX(0.75) scaleY(0.75);
 }
 100% {
-    transform: scaleX(1);
+    transform: scaleX(1) scaleY(1);
 }
 }
 .navbar {
     background-color: rgb(196, 197, 191);
-    margin: 5px 0 5px 0;
+    margin: 3px 3px 5px 3px;
     padding: 8px 10px 10px 5px;
     height: 50px;
     border-radius: 5px;
@@ -36,7 +36,10 @@ html {
     cursor: pointer;
     float: left;
     height: 80%;
-    padding: 8px;
+    padding: 8px 8px 8px 0;
+}
+#hamburger-icon:active {
+    transform: translateY(1px);
 }
 .navbar-option-main {
     display: inline-block;
@@ -57,16 +60,16 @@ html {
     margin-top: 60px;
     width: fit-content;
     min-width: 8%;
-    animation: hamburgerWideDown 300ms ease-in-out;
+    animation: hamburgerWideDown 350ms linear;
     transform-origin: top left;
 }
 .dropdown-menu > ul {
     padding: 2px;
-    margin: 5px;
+    margin: 3px;
 }
 .dropdown-menu > ul > a > li {
     list-style: none;
-    margin: 2px;
+    margin: 2px 0 2px 0;
     padding: 3px;
     font-weight: bold;
     font-size: 14px;
