@@ -1,0 +1,36 @@
+{
+  "name": "hamburger-ui-menu",
+  "version": "1.0.0",
+  "description": "A mobile friendly hamburger style navigation menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pataskad/hamburger-ui-menu.git"
+  },
+  "keywords": [
+    "hamburger",
+    "ui",
+    "navigation",
+    "mobile"
+  ],
+  "author": "Dallas Pataska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pataskad/hamburger-ui-menu/issues"
+  },
+  "homepage": "https://github.com/pataskad/hamburger-ui-menu#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "eslint": "^8.4.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
