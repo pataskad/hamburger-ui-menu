@@ -1,6 +1,6 @@
 {
   "name": "hamburger-ui-menu",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A mobile friendly hamburger style navigation menu",
   "main": "index.js",
   "scripts": {
